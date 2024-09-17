@@ -39,7 +39,7 @@
               </div>
             </div>
 
-            <div class="lg:hidden bg-white p-1 h-10 w-10 rounded-full flex justify-center items-center ">
+            <div class="lg:hidden bg-gray-200 p-1 h-10 w-10 rounded-full flex justify-center items-center ">
                 <i class="fa-solid fa-bars" aria-hidden="true"></i></div>
         </div>
     </nav>
@@ -121,7 +121,7 @@
                        The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
                     </p>
             </div>
-            <div class="flex gap-10 justify-center">
+            <div class="flex flex-col lg:flex-row gap-10 justify-center">
                 <div class="bg-pink-300 p-6 rounded-lg">
                     <img src="./assets/concept.png" alt="">
                     <h2 class="font-bold text-xl my-3">Concept</h2>
@@ -171,8 +171,8 @@
                        The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
                     </p>
             </div>
-            <div class="flex justify-center gap-4">
-                <div class="flex gap-4 border-2 rounded-2xl p-6">
+            <div class="flex flex-col lg:flex-row justify-center gap-4">
+                <div class="flex flex-col lg:flex-row gap-4 border-2 rounded-2xl p-6">
                     <img src="./assets/img1.png" alt="">
                 <div>
                     <h2 class="font-bold text-xl my-3">Commercial</h2>
@@ -186,9 +186,9 @@
                 </div>
                     <img class="border-2 rounded-2xl p-6" src="./assets/img2.png" alt="">
             </div>
-            <div class="flex justify-center gap-4 my-8">
+            <div class="flex flex-col lg:flex-row justify-center gap-4 my-8">
                     <img class="border-2 rounded-2xl p-5" src="./assets/img3.png" alt="">
-                <div class="flex gap-2 border-2 rounded-2xl p-5">
+                <div class="flex flex-col lg:flex-row gap-2 border-2 rounded-2xl p-5">
                     <img src="./assets/img4.png" alt="">
                 <div>
                     <h2 class="font-bold text-xl my-3">Commercial</h2>
@@ -208,29 +208,31 @@
 
     <!-- Fifth Section -->
 
-     <section>
-            <div class="bg-gray-200 mx-auto justify-center text-center">
+     <section class="bg-gray-200 ">
+            <div class="container mx-auto border-2 justify-center">
 
                  <div class="flex justify-center">
                     <button class="flex items-center my-10 bg-lime-100 font-bold text-xl p-3 gap-1 rounded-full">
                     <i class="size-5 flex items-center justify-center rounded-full fa-solid fa-arrow-right"></i>Let's Connect 
                     </button>
                  </div>
-                    <h1 class="font-bold text-4xl my-7">Let's Discuss Next Project
-                    </h1>
-                    <p>
-                       The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
-                    </p>
+                    <div class="flex flex-col justify-center items-center">
+                        <h1 class="text-4xl my-7">Let's Discuss Next Project
+                        </h1>
+                        <p class="text-center">
+                           The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
+                        </p>
+                    </div>
                  <div>
-                 <div>
-                    <input class="w-1/4 p-5 mx-1 my-5 rounded-2xl" type="email" placeholder="First Name*" name="" id="">
-                    <input class="w-1/4 p-5 mx-1 my-5 rounded-2xl" type="email" placeholder="Last Name*" name="" id="">
+                 <div class="flex flex-col lg:flex-row justify-center">
+                    <input class="w-full p-5 mx-1 my-5 rounded-2xl" type="email" placeholder="First Name*" name="" id="">
+                    <input class="w-full p-5 mx-1 my-5 rounded-2xl" type="email" placeholder="Last Name*" name="" id="">
                  </div>
-                 <div>
-                    <input class="w-1/4 p-5 mx-1 my-5 rounded-2xl" type="email" placeholder="Phone Number*" name="" id="">
-                    <input class="w-1/4 p-5 mx-1 my-5 rounded-2xl" type="email" placeholder="Email Number*" name="" id="">
+                 <div class="flex flex-col lg:flex-row justify-center">
+                    <input class="w-full p-5 mx-1 my-5 rounded-2xl" type="email" placeholder="Phone Number*" name="" id="">
+                    <input class="w-full p-5 mx-1 my-5 rounded-2xl" type="email" placeholder="Email Number*" name="" id="">
                  </div>
-                    <textarea class="w-2/4 p-12 my-5 rounded-2xl" name="" placeholder="Write your message here" id=""></textarea>
+                    <textarea class="w-full p-12 my-5 rounded-2xl" name="" placeholder="Write your message here" id=""></textarea>
                  </div>
                  <div class="flex justify-center">
                     <button class="flex items-center justify-center my-10 bg-lime-400 w-2/4 font-bold text-xl p-4 gap-1 rounded-full">
@@ -253,12 +255,12 @@
                         <h1 class="font-extrabold text-4xl">Rinterio</h1>
                 </div>
                 <div class="text-gray-300 flex justify-center my-10">
-                        <p>
+                        <p class="text-center">
                            The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
                          </p>
                 </div>  
             </div> 
-            <div class="flex justify-center gap-x-40 my-5">
+            <div class="flex flex-col lg:flex-row items-center justify-center gap-10 my-5">
                     <p class="font-bold">Home</p>
                     <p>Service</p>
                     <p>Portfolio</p>
